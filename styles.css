@@ -178,6 +178,20 @@ header{
     }
 }
     @media (min-width: 768px) and (max-width: 1024px) {
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            overflow: hidden;
+        }
+        header{
+            padding: 40px;
+            width: 110vw;
+            background-color: black;
+        }
+        
         .name h1 {
             font-size: 9vw;
             text-align: center;
@@ -187,15 +201,15 @@ header{
             display: flex;
             flex-direction: row;
             align-items: center;
-            gap: 2px;
+            gap: 1px;
         
         }
     
         .nav ul li {
-            font-size: 4vw;
+            font-size: 3vw;
             text-align: center;
             width: 100%;
-            margin-left: 10px;
+            margin-left: -39px;
         }
     
         .nav ul li a {
@@ -228,8 +242,9 @@ header{
         .img-container {
             background-color: yellow;
             border-radius: 10% 40% 10% 40%;
-            width: 1000%;
-            height: 200%;
+            width: 1000vw;
+            height: 600%;
+            margin-top: -270px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -245,8 +260,8 @@ header{
         .career {
             color: rgb(20, 15, 15);
             text-align: center;
-            font-size: 2rem;
-            max-width: 80%;
+            font-size: 2em;
+            max-width: 50%;
             margin: 0 auto;
         }
     
