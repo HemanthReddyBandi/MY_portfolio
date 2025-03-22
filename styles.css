@@ -104,7 +104,6 @@ html{
     /* background: url('resbg.jpg') no-repeat center center/cover; */
     color: white;
 }
-
 #projects h1 {
     font-size: 5rem;
     font-weight: bold;
@@ -123,6 +122,7 @@ html{
     border-radius: 15px;
     box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.5);
     text-align: left;
+    z-index: 2;
 }
 
 
@@ -748,7 +748,9 @@ html{
     #projects {
             padding: 50px 15px;
         }
-    
+    #projects h1 {
+        font-size: 4rem;
+    }
         .bookmart {
             width: 95%;
             padding: 20px;
@@ -859,7 +861,7 @@ html{
         }
     
         .exp-title {
-            font-size: 4rem;
+            font-size: 3.5rem;
         }
         .exp-intro{
             font-size: 1.2rem;
