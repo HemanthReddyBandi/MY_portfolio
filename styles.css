@@ -185,6 +185,8 @@ header{
         }
         body{
             overflow: hidden;
+            overflow-x: hidden;
+
         }
         header{
             padding: 40px;
@@ -244,7 +246,7 @@ header{
             border-radius: 10% 40% 10% 40%;
             width: 1000vw;
             height: 600%;
-            margin-top: -270px;
+            margin-top: -200px;
             display: flex;
             justify-content: center;
             align-items: center;
