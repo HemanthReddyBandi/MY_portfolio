@@ -30,6 +30,9 @@ header{
     margin-left: 120px;
     font-size: 2vw;
 }
+html{
+    scroll-behavior: smooth;
+}
 .nav ul li a {
     text-decoration: none;
     color: white;
@@ -37,6 +40,7 @@ header{
     border-radius: 10px;
     background: rgba(204, 217, 22, 0.2);
     transition: background 0.3s ease-in-out;
+    scroll-behavior: smooth;
     
 }
 .nav ul li a:hover {
@@ -90,7 +94,185 @@ header{
     font-size: 1.6em;
     max-width: 60%;
 }
+#projects {
+    width: 100%;
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+}
 
+#projects h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff3131;
+    text-shadow: 0px 0px 15px red;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+/* Bookmart Project Container */
+.bookmart {
+    width: 80%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.5);
+    text-align: left;
+}
+
+/* Project Title */
+.book {
+    font-size: 2rem;
+    color: #ff3131;
+    text-shadow: 0px 0px 10px red;
+    margin-bottom: 20px;
+}
+
+/* Project Description */
+.desc p {
+    font-size: 1.5rem;
+    color: #ddd;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Project Links */
+.desc a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #ff3131;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.desc a:hover {
+    background: #ff0000;
+}
+
+/* Lists */
+.list {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.list p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 10px red;
+    margin-bottom: 10px;
+}
+
+.list li {
+    font-size: 1.5rem;
+    color: #ddd;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+/* Final Project Description */
+.dec {
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.prj_2 {
+    border: none;
+    height: 3px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    margin: 50px auto;
+    width: 80%;
+}
+
+/* Android App Project Container */
+.android-app {
+    width: 80%;
+    margin: auto;
+    background: rgba(0, 114, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 183, 255, 0.5);
+    text-align: left;
+}
+
+/* Project Title */
+.project_title {
+    font-size: 2rem;
+    color: #00c6ff;
+    text-shadow: 0px 0px 10px #00bfff;
+    margin-bottom: 15px;
+}
+
+/* Development Period */
+.period {
+    font-size: 1.5rem;
+    color: #0072ff;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+/* Description */
+.guess {
+    font-size: 1.5rem;
+    color: #ddd;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Lists */
+.list1 {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.list1 p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00c6ff;
+    text-shadow: 0px 0px 10px #00bfff;
+    margin-bottom: 10px;
+}
+
+.list1 li {
+    font-size: 1.5rem;
+    color: #ddd;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+.more-details {
+    font-size: 1.5rem;
+    color: rgb(206, 35, 124);
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(239, 229, 229);
+
+}
+
+.more-details a {
+    display: inline-block;
+    color: #ff3131;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: color 0.3s ease-in-out;
+    padding: 5px;
+    background-color: rgb(19, 14, 14);
+}
+
+.more-details a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+    
 
 @media (max-width: 767px) {
 
@@ -176,7 +358,116 @@ header{
         font-size: 1.6em;
         max-width: 60%;
     }
-}
+    #projects {
+            padding: 50px 15px;
+        }
+    
+        .bookmart {
+            width: 95%;
+            padding: 20px;
+            text-align: center; /* Center align text for better readability */
+        }
+    
+        .book {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    
+        .desc p {
+            font-size: 0.9rem;
+            text-align: left; /* Align text properly */
+            line-height: 1.5;
+        }
+    
+        .desc a {
+            display: block; /* Make links full width for better tapping */
+            font-size: 0.9rem;
+            padding: 10px;
+            margin-top: 8px;
+            text-align: center;
+        }
+    
+        .list {
+            padding-left: 0;
+        }
+    
+        .list p {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    
+        .list li {
+            font-size: 0.9rem;
+            text-align: left;
+        }
+    
+        .dec {
+            font-size: 1rem;
+            text-align: center;
+            margin-top: 15px;
+        }
+        .android-app {
+            width: 95%;
+            padding: 20px;
+            text-align: center;
+        }
+    
+        .prj_2 {
+            width: 90%;
+            height: 2px;
+            margin: 40px auto;
+        }
+    
+        .project_title {
+            font-size: 1.6rem;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    
+        .period {
+            font-size: 1.2rem;
+            text-align: right;  /* Maintains right alignment */
+            margin-bottom: 15px;
+            display: block;  /* Ensures proper positioning */
+            padding-right: 10px;
+        }
+    
+        .guess {
+            font-size: 1.2rem;
+            text-align: justify;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+    
+        .list1 {
+            padding-left: 0;
+            text-align: left;
+        }
+    
+        .list1 p {
+            font-size: 1.5rem;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    
+        .list1 li {
+            font-size: 1.2rem;
+            text-align: left;
+            margin-bottom: 6px;
+        }
+            .more-details {
+                font-size: 0.9rem;
+                text-align: center;
+            }
+        
+            .more-details a {
+                font-size: 0.9rem;
+                padding: 8px;
+            }
+
+        }   
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
     * {
         margin: 0;
@@ -188,10 +479,10 @@ header{
         overflow-x: hidden;
     }
 
-    /* Fix header width issue */
+    
     header {
         padding: 40px;
-        width: 100vw; /* Ensures it fully fits the screen */
+        width: 100vw; 
         background-color: black;
     }
 
@@ -236,7 +527,6 @@ header{
         transform: scale(1.1);
         box-shadow: 0px 0px 15px rgba(216, 13, 172, 0.3);
     }
-}
 
     
         .image-career-container {
@@ -281,5 +571,107 @@ header{
             font-size: 1.6rem;
             max-width: 90%;
         }
-    }
+     
+            #projects {
+                padding: 60px 20px;
+            }
+        
+            .bookmart {
+                width: 85%;
+                padding: 30px;
+                text-align: left;
+            }
+        
+            .book {
+                font-size: 1.8rem;
+            }
+        
+            .desc p {
+                font-size: 1rem;
+                line-height: 1.6;
+            }
+        
+            .desc a {
+                font-size: 1rem;
+                padding: 10px;
+            }
+        
+            .list {
+                padding-left: 15px;
+            }
+        
+            .list p {
+                font-size: 1.4rem;
+            }
+        
+            .list li {
+                font-size: 1rem;
+            }
+        
+            .dec {
+                font-size: 1.1rem;
+                text-align: center;
+                margin-top: 20px;
+            }
+            .android-app {
+                width: 85%;
+                padding: 30px;
+                text-align: left;
+            }
+        
+            .prj_2 {
+                width: 90%;
+                height: 3px;
+                margin: 40px auto;
+            }
+        
+            .project_title {
+                font-size: 1.8rem;
+                text-align: left;
+                margin-bottom: 10px;
+            }
+        
+            .period {
+                font-size: 1.4rem;
+                text-align: right; /* Keeps right alignment */
+                margin-bottom: 15px;
+                display: block;
+                padding-right: 15px;
+            }
+        
+            .guess {
+                font-size: 1.3rem;
+                text-align: justify;
+                line-height: 1.6;
+                margin-bottom: 15px;
+            }
+        
+            .list1 {
+                padding-left: 20px;
+                text-align: left;
+            }
+        
+            .list1 p {
+                font-size: 1.6rem;
+                text-align: left;
+                margin-bottom: 10px;
+            }
+        
+            .list1 li {
+                font-size: 1.2rem;
+                text-align: left;
+                margin-bottom: 8px;
+            }
+            .more-details {
+                font-size: 1rem;
+                text-align: center;
+            }
+        
+            .more-details a {
+                font-size: 1rem;
+                padding: 10px;
+            }
+        }
+        
+    
     
