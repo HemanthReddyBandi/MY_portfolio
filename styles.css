@@ -95,7 +95,7 @@ header{
 @media (max-width: 767px) {
 
     .name h1{
-        font-size: 8vw;
+        font-size: 10vw;
         color:red;
         text-shadow: 0px 0px 15px red;
     }
@@ -104,7 +104,7 @@ header{
         flex-direction: column; 
         align-items: center;
         gap: 15px; 
-        padding: 20px 0;
+        padding: 0px 0px;
     }
 
     .nav ul li {
@@ -146,7 +146,7 @@ header{
         background-color: yellow;
         border-radius: 10% 40% 10% 40%;
         width: 100%;
-        height: auto;
+        height: 100%;
         margin-top: 20px;
         margin-left: 10px;
         display: inline-block;
@@ -176,7 +176,86 @@ header{
         font-size: 1.6em;
         max-width: 60%;
     }
-
-    
-    
 }
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .name h1 {
+            font-size: 9vw;
+            text-align: center;
+        }
+    
+        .nav ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 5px;
+        
+        }
+    
+        .nav ul li {
+            font-size: 4vw;
+            text-align: center;
+            width: 100%;
+            margin-left: 10px;
+        }
+    
+        .nav ul li a {
+            display;
+            padding: 12px;
+            width: 50%;
+            border-radius: 10px;
+            background: rgba(204, 217, 22, 0.2);
+            color: white;
+            text-decoration: none;
+            transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+        }
+    
+        .nav ul li a:hover {
+            background: #3bdd12;
+            color: black;
+            transform: scale(1.1);
+            box-shadow: 0px 0px 15px rgba(216, 13, 172, 0.3);
+        }
+    
+        .image-career-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 30px;
+            width: 100%;
+            padding: 30px 15px;
+        }
+    
+        .img-container {
+            background-color: yellow;
+            border-radius: 10% 40% 10% 40%;
+            width: 1000%;
+            height: 200%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .img-container img {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            border-radius: 10% 40% 10% 40%;
+        }
+    
+        .career {
+            color: rgb(20, 15, 15);
+            text-align: center;
+            font-size: 2rem;
+            max-width: 80%;
+            margin: 0 auto;
+        }
+    
+        .career p:first-child {
+            margin-top: 20px;
+            color: rgb(5, 4, 4);
+            text-align: left;
+            font-size: 1.6rem;
+            max-width: 90%;
+        }
+    }
+    
