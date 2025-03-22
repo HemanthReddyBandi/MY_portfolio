@@ -203,21 +203,21 @@ header{
             display: flex;
             flex-direction: row;
             align-items: center;
-            gap: 1px;
+            gap: 5px;
         
         }
     
         .nav ul li {
-            font-size: 3vw;
+            font-size: 2vw;
             text-align: center;
-            width: 100%;
+            width: 30%;
             margin-left: -39px;
         }
     
         .nav ul li a {
-            display;
-            padding: 12px;
-            width: 50%;
+            display:block;
+            padding: 12px ;
+            width: 80%;
             border-radius: 10px;
             background: rgba(204, 217, 22, 0.2);
             color: white;
@@ -246,7 +246,7 @@ header{
             border-radius: 10% 40% 10% 40%;
             width: 1000vw;
             height: 600%;
-            margin-top: -200px;
+            margin-top: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
