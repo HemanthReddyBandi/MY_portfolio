@@ -101,7 +101,7 @@ html{
     padding: 80px 20px;
     text-align: center;
     background: linear-gradient(to right, #141e30, #243b55);
-    background: url('resbg.jpg') no-repeat center center/cover;
+    background: url('1717504896863.gif') no-repeat center center/cover;
     color: white;
 }
 #projects h1 {
@@ -117,7 +117,7 @@ html{
 .bookmart {
     width: 80%;
     margin: auto;
-    background-color: rgba(27, 38, 164, 0.63);
+    background-color: rgba(15, 15, 16, 0.608);
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.5);
@@ -198,7 +198,7 @@ html{
 .android-app {
     width: 80%;
     margin: auto;
-    background-color: rgba(29, 106, 201, 0.69);
+    background-color: rgba(3, 17, 33, 0.577);
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0px 0px 15px rgba(0, 183, 255, 0.5);
@@ -279,8 +279,10 @@ html{
     width: 100%;
     padding: 80px 20px;
     text-align: center;
-    background: linear-gradient(to right, #222831, #393e46);
+    /* background: linear-gradient(to right, #222831, #393e46); */
+    background: url('giphy.gif') no-repeat center center/cover ;
     color: white;
+
 }
 
 
@@ -312,7 +314,7 @@ html{
 .experience-card {
     width: 80%;
     margin: auto;
-    background: rgba(57, 62, 70, 0.8);
+    background-color: rgba(9, 8, 11, 0.738);
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0px 0px 15px rgba(255, 159, 28, 0.5);
@@ -416,8 +418,9 @@ html{
     width: 100%;
     padding: 80px 20px;
     text-align: center;
-    background: linear-gradient(to right, #161a30, #313866);
+    /* background: linear-gradient(to right, #161a30, #313866); */
     color: white;
+    background: url('aboutbg0.png') no-repeat center center/cover;
 }
 
 
@@ -434,9 +437,10 @@ html{
     max-width: 1000px;
     margin: auto;
     padding: 20px;
+    
 }
 .about-box {
-    background: rgba(255, 221, 87, 0.1);
+    background-color: rgba(33, 34, 14, 0.63);
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(255, 221, 87, 0.5);

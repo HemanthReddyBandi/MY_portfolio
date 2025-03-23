@@ -90,6 +90,7 @@
         }
         #projects {
                 padding: 50px 15px;
+                background: url('resbg.jpg') no-repeat center center/cover;
             }
         #projects h1 {
             font-size: 4rem;
@@ -196,7 +197,9 @@
                     font-size: 0.9rem;
                     padding: 8px;
                 }
-     
+                #experience {
+                    background: linear-gradient(to right, #222831, #393e46);
+                }
             .experience-card {
                 width: 95%;
                 padding: 25px;
@@ -406,10 +409,12 @@
                 gap: 30px;
                 width: 100%;
                 padding: 30px 15px;
+                /* background: linear-gradient(to right, #222831, #393e46); */
+                background: url('yellow-background-top-view.avif') no-repeat center center/cover;
             }
         
             .img-container {
-                background-color: yellow;
+                background-color: rgba(9, 17, 236, 0.771);
                 border-radius: 10% 40% 10% 40%;
                 width: 1000vw;
                 height: 600%;
@@ -427,7 +432,7 @@
             }
         
             .career {
-                color: rgb(248, 241, 241);
+                color: rgb(18, 19, 17);
                 text-align: center;
                 font-size: 2em;
                 max-width: 50%;
