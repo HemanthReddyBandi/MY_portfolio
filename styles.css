@@ -101,7 +101,7 @@ html{
     padding: 80px 20px;
     text-align: center;
     background: linear-gradient(to right, #141e30, #243b55);
-    /* background: url('resbg.jpg') no-repeat center center/cover; */
+    background: url('resbg.jpg') no-repeat center center/cover;
     color: white;
 }
 #projects h1 {
@@ -117,7 +117,7 @@ html{
 .bookmart {
     width: 80%;
     margin: auto;
-    background: rgba(255, 255, 255, 0.1);
+    background-color: rgba(27, 38, 164, 0.63);
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.5);
@@ -198,7 +198,7 @@ html{
 .android-app {
     width: 80%;
     margin: auto;
-    background: rgba(0, 114, 255, 0.1);
+    background-color: rgba(29, 106, 201, 0.69);
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0px 0px 15px rgba(0, 183, 255, 0.5);
