@@ -360,7 +360,8 @@ html{
     width: 100%;
     padding: 80px 20px;
     text-align: center;
-    background: linear-gradient(to right, #1e1e2e, #2b2b3d);
+    /* background: linear-gradient(to right, #1e1e2e, #2b2b3d); */
+    background: url('d98c4b213427893.674631758e6e9.png') no-repeat center center/cover;
     color: white;
 }
 
