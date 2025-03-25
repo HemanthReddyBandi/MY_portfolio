@@ -102,12 +102,12 @@
             }
         
             .book {
-                font-size: 1.5rem;
+                font-size: 1.rem;
                 text-align: center;
             }
         
             .desc p {
-                font-size: 0.9rem;
+                font-size: 1.2rem;
                 text-align: left; 
                 line-height: 1.5;
             }
@@ -125,17 +125,17 @@
             }
         
             .list p {
-                font-size: 1.2rem;
+                font-size: 1.5em;
                 text-align: center;
             }
         
             .list li {
-                font-size: 0.9rem;
+                font-size: 1.2rem;
                 text-align: left;
             }
         
             .dec {
-                font-size: 1rem;
+                font-size: 1.4rem;
                 text-align: center;
                 margin-top: 15px;
             }
