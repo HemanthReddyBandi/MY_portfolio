@@ -198,7 +198,7 @@
                     padding: 8px;
                 }
                 #experience {
-                    background: linear-gradient(to right, #222831, #393e46);
+                    background:url('b9f002af0a8178ddfc6d20e3d85daeb9.jpg') no-repeat center center/cover;
                 }
             .experience-card {
                 width: 95%;
@@ -244,7 +244,8 @@
                 height: 100px;
             }
             #about {
-                padding: 50px 15px;
+                background: url('36ffe05d90140a8eaacddaf53adedfc9.jpg') no-repeat center center/cover;
+                /* padding: 50px 15px; */
             }
         
             .intro, .family, .about-family {
