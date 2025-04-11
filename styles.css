@@ -556,6 +556,10 @@ html{
     color: white;
     transition: transform 0.1s ease-in-out, color 0.3s ease-in-out;
 }
+.social-icons a:hover .fa-whatsapp:hover {
+    color: #25D366;
+}
+
 .social-icons a:hover .fa-linkedin {
     color: #0e76a8;
 }
