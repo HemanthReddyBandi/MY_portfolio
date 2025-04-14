@@ -61,6 +61,7 @@
             margin-top: 20px;
             margin-left: 10px;
             display: inline-block;
+            line-height: 0;
         }
         
         .img-container img {
