@@ -66,8 +66,8 @@
         .img-container img {
             object-fit: cover;
             width: 100%;
-            height: auto;
-            margin-bottom:-30px;
+            height: 100%;
+            
             border-radius: 10% 40% 10% 40%;
         }
         
