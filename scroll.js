@@ -15,13 +15,12 @@ function scrollToTop() {
 //typing text
 document.addEventListener("DOMContentLoaded", () => {
   const roles = [
-    "AI/ML Apprentice",
-    "JAVA Developer",
-    "PYTHON Developer",
+    "AI/ML  Apprentice",
+    "JAVA & PYTHON Programmer",
     "FRONTEND DEPLOYER",
-    "SYSTEM Designer",
+    "SYSTEM Design Enthusiast",
     "BACKEND Deployer",
-    "PROBLEM Solver",
+    "TECH Problem Solver",
     "COMMUNICATION Specialist"
 
   ];
