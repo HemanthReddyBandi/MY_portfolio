@@ -81,7 +81,8 @@ html{
     text-decoration: none;
     color: white;
     padding: 10px 15px;
-    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
     background: rgba(204, 217, 22, 0.2);
     transition: background 0.3s ease-in-out;
     scroll-behavior: smooth;
@@ -91,7 +92,8 @@ html{
     background: #3bdd12;
     transition: background 0.3s ease-in-out;
     color: black;
-    transform: scale(1.1);
+    border-radius: 20px;
+    transform: scale(1.4);
     box-shadow: 0px 0px 0px 15px rgba(216, 13, 172, 0.2);
 }
 
