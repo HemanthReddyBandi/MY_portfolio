@@ -1,4 +1,4 @@
-# responsive_portfolio 
+
 # Hemanth Reddy Bandi | Portfolio
 
 Welcome to my personal portfolio!  
