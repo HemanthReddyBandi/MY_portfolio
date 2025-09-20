@@ -217,6 +217,64 @@
                     font-size: 0.9rem;
                     padding: 8px;
                 }
+
+                .prj_3 {
+                width: 90%;
+                height: 2px;
+                margin: 40px auto;
+            }
+            .web-app {
+                width: 95%;
+                padding: 20px;
+                text-align: center;
+            }
+            .project_title-1 {
+                font-size: 1.6rem;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        
+            .period-1 {
+                font-size: 1.2rem;
+                text-align: right; 
+                margin-bottom: 15px;
+                display: block; 
+                padding-right: 10px;
+            }
+        
+            .description-1 {
+                font-size: 1.2rem;
+                text-align: justify;
+                line-height: 1.5;
+                margin-bottom: 15px;
+            }
+        
+            .list1-1 {
+                padding-left: 0;
+                text-align: left;
+            }
+        
+            .list1-1 p {
+                font-size: 1.5rem;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        
+            .list1-1 li {
+                font-size: 1.2rem;
+                text-align: left;
+                margin-bottom: 6px;
+            }
+                .more-details-1 {
+                    font-size: 0.9rem;
+                    text-align: center;
+                }
+            
+                .more-details-1 a {
+                    font-size: 0.9rem;
+                    padding: 8px;
+                }
+
                 #experience {
                     background:url('b9f002af0a8178ddfc6d20e3d85daeb9.jpg') no-repeat center center/cover;
                 }
@@ -581,6 +639,66 @@
                     font-size: 1rem;
                     padding: 10px;
                 }
+
+                .prj_3 {
+                    width: 90%;
+                    height: 3px;
+                    margin: 40px auto;
+                }
+                
+                 .web-app {
+                    width: 85%;
+                    padding: 30px;
+                    text-align: left;
+                }
+            
+                .project_title-1 {
+                    font-size: 1.8rem;
+                    text-align: left;
+                    margin-bottom: 10px;
+                }
+            
+                .period-1 {
+                    font-size: 1.4rem;
+                    text-align: right; 
+                    margin-bottom: 15px;
+                    display: block;
+                    padding-right: 15px;
+                }
+            
+                .description-1 {
+                    font-size: 1.3rem;
+                    text-align: justify;
+                    line-height: 1.6;
+                    margin-bottom: 15px;
+                }
+            
+                .list1-1 {
+                    padding-left: 20px;
+                    text-align: left;
+                }
+            
+                .list1-1 p {
+                    font-size: 1.6rem;
+                    text-align: left;
+                    margin-bottom: 10px;
+                }
+            
+                .list1-1 li {
+                    font-size: 1.2rem;
+                    text-align: left;
+                    margin-bottom: 8px;
+                }
+                .more-details-1 {
+                    font-size: 1rem;
+                    text-align: center;
+                }
+            
+                .more-details-1 a {
+                    font-size: 1rem;
+                    padding: 10px;
+                }
+
                 #experience {
                     padding: 70px 20px;
                     /* background: url('36ffe05d90140a8eaacddaf53adedfc9.jpg') no-repeat center center/cover; */
