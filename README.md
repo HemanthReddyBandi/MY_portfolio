@@ -2,6 +2,7 @@
 # Hemanth Reddy Bandi | Portfolio
 
 Welcome to my personal portfolio!  
+checkout master branch of this repository to view the code snippets used to build it.
 
 This portfolio showcases my **projects, skills, and professional journey** in a user-friendly and visually appealing way. The website is designed to provide easy navigation, responsive layouts, and a seamless browsing experience across devices.
 
