@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # responsive_portfolio 
 # Hemanth Reddy Bandi | Portfolio
 
@@ -40,3 +41,9 @@ Check out the portfolio here: [Responsive Portfolio](https://hemanthreddybandi.g
 
 
 <img src="Screenshot (3).png">
+=======
+ 
+<h1>portfolio overview</h1>
+<img src="Screenshot (3).png</>
+
+>>>>>>> 2620261c3d276adb93912274075f2b046fd22ae3
