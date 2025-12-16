@@ -35,7 +35,7 @@ I am passionate about exploring **AI/ML, full-stack web development,app developm
 
 ## 🔗 Visit the Portfolio
 
-Check out the portfolio here: [Responsive Portfolio](https://hemanthreddybandi.github.io/responsive_portfolio/)  
+Check out the portfolio here: [Responsive Portfolio](https://hemanthreddybandi.github.io/MY_portfolio/)  
 
 ---
 
